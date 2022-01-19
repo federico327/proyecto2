@@ -11,3 +11,19 @@
     font-size: 13   px;
     
 }
+
+
+
+.grid__container{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 25px;
+    
+}
+
+
+
+
+
+
