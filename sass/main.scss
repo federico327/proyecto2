@@ -1,0 +1,221 @@
+@import "variables";
+
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    border: 1px solid black;
+    background-color: red;
+
+    & &__item1{
+        grid-column: 1/span 6;
+        background-color: $ColorDeFondo;
+        
+        &__i1{
+            
+            width: 250px;
+            margin: 10px;
+            & img{
+                border: 2px solid black;
+            height: 200px;
+            width: auto;
+            background-color: blue;
+            margin: 10px;
+            float: left;
+            }
+        }
+        &__i2{
+            
+            text-align: center;
+            height: 200px;
+            width: 500px;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center;
+            margin: 10px;
+            float: left;
+
+        }
+        &__i3{
+            
+            height: 200px;
+            width: 100px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;        
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        &__i4{
+            
+            height: 200px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        &__i5{
+            
+            height: 200px;
+            width: 100px;
+            text-align: center;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center;
+            margin: 10px;
+            float: left;
+        }
+
+    }
+    &__item2{
+        grid-column: 1/span 6;
+        background-color: $ColorDeFondo;
+        &__i1{
+            
+            width: 250px;
+            margin: 10px;
+            & img{
+                border: 2px solid black;
+            height: 200px;
+            width: auto;
+            background-color: blue;
+            margin: 10px;
+            float: left;
+            }
+        }
+        &__i2{
+            
+            text-align: center;
+            height: 200px;
+            width: 500px;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center;
+            margin: 10px;
+            float: left;
+
+        }
+        &__i3{
+            
+            height: 200px;
+            width: 100px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;        
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        &__i4{
+            
+            height: 200px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        &__i5{
+            
+            height: 200px;
+            width: 100px;
+            text-align: center;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center;
+            margin: 10px;
+            float: left;
+        }
+
+    }
+    & &__item3{
+        grid-column: 1/span 6;
+        background-color: $ColorDeFondo;
+        &__i1{
+            
+            width: 250px;
+            margin: 10px;
+            & img{
+                border: 2px solid black;
+            height: 200px;
+            width: auto;
+            background-color: blue;
+            margin: 10px;
+            float: left;
+            }
+        }
+        &__i2{
+            
+            text-align: center;
+            height: 200px;
+            width: 500px;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center;
+            margin: 10px;
+            float: left;
+
+        }
+        &__i3{
+            
+            height: 200px;
+            width: 100px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;        
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        &__i4{
+            
+            height: 200px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        &__i5{
+            
+            height: 200px;
+            width: 100px;
+            text-align: center;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center;
+            margin: 10px;
+            float: left;
+        }
+    }
+    & &__item4{
+        grid-column: 1/span 6;
+        background-color: $ColorDeFondo;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        
+        &__i1{
+            float: left;
+            margin: 15px;
+            
+        }
+        &__i2{
+            float: left;
+            margin: 15px;
+            
+        }
+
+    }
+}
+
