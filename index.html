@@ -14,11 +14,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="stylesheet" href="./style/style.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <title>Hello, world!</title>
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-light fixed-top sticky-top color-header">
+        <nav class="navbar navbar-light fixed-top .sticky-top color-header">
             <div class="container-fluid ">
               <a class="navbar-brand" href="./index.html"><img class src="./Image/logo 1.png  " width="70px" height="auto" ></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -63,89 +64,203 @@
             </div>
           </nav>
     </header>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-       
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./image/fondo 354.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="imagen-principal"><img src="./image/logo 1.png" class="img-fluid" alt="..."></h5>
-              <ul class="lista-menu">
-                  <li><a href="#" target="_blank">Catalogo</a></li>
-                  <li><a href="#" target="_blank">Ofertas</a></li>
-                  <li><a href="#" target="_blank">Empresa</a></li>
-                  <li><a href="./Page/Contacto2.html" target="_blank">Contactos</a></li>
-                  <li><a href="#" target="_blank">Sorteos</a></li>
-              </ul>
+    <div class="contenedor">
+      <div class="contenedor__superior">
+        <div class="contenedor__superior__item1">
+          <a href=""><img src="./image/instagram (2).png" class="img-fluid" alt="..."></a>
+          <a href=""><img src="./image/facebook.png" class="img-fluid" alt="..."></a>
+          <a href=""><img src="./image/whatsapp (1).png" class="img-fluid" alt="..."></a>
+          
+        </div>
+        <div class="contenedor__superior__item2"></div>
+        <div class="contenedor__superior__item3"><img src="./image/logo 1.png" class="img-fluid" alt="..."></div>
+        <div class="contenedor__superior__item4"></div>
+        <div class="contenedor__superior__item5">
+          <a href="./Page/Carrito.html" target="_blank"><button type="button" class="btn btn-link-black btn-secondary">Carrito</button></a>
+          <a href="#" target="_blank"><button type="button" class="btn btn-link-black btn-secondary">Catalogo</button></a>
+          <a href="./Page/Contacto2.html" target="_blank"><button type="button" class="btn btn-link-black btn-secondary">Contacto</button></a>
+          <a href="#" target="_blank"><button type="button" class="btn btn-link-black btn-secondary">Empresa</button></a>
+          <a href="#" target="_blank"><button type="button" class="btn btn-link-black btn-secondary">Oferta</button></a>
+          
+
+          
+        </div>
+        <!-- MENU MOVIL -->
+        <div class="contenedor__superior__item5.5 movil">
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="./Page/Carrito.html">Carrito</a></li>
+              <li><a class="dropdown-item" href="./Page/Contacto2.html">Contacto</a></li>
+              <li><a class="dropdown-item" href="#">Empresa</a></li>
+            </ul>
+          </div>
+
+
+
+
+        </div>
+        <!-- Carrusel MOVIL -->
+        <div class="contenedor__superior__item6 movil">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-          </div>
-          
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- PRODUCTOS DESTACADOS -->
-      <div class="container-fluid">
-        <div class="row align-items-start container-fluid bg-secondary p-0 m-0">
-          <div class="col-12">
-            <h2>PRODUCTOS DESTACADOS</h2>
-          </div>
-          
-        </div>
-        <div class="row align-items-center container-fluid bg-secondary p-3 m-0 animate__animated animate__rubberBand">
-          <div class="col-4">
-            <img src="./image/piratas-felfort.png" class="img-fluid" alt="..."> 
-          </div>
-          <div class="col-4">
-            <img src="./image/piratas-felfort.png" class="img-fluid" alt="..."> 
-          </div>
-          <div class="col-4">
-            <img src="./image/piratas-felfort.png" class="img-fluid" alt="..."> 
-          </div>
-        </div>
-        <!-- Carrusel -->
-        <div id="carouselExampleControls " class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./image/D_NQ_NP_689527-MLA41546660651_042020-O.webp" class="d-block w-20 " alt="...">
+                <img src="./image/Tienda2.jfif" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/D_NQ_NP_689527-MLA41546660651_042020-O.webp" class="d-block w-20" alt="...">
+                <img src="./image/tienda1.jfif" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/D_NQ_NP_689527-MLA41546660651_042020-O.webp" class="d-block w-20" alt="...">
+                <img src="./image/local .jfif" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <!-- Carrusel -->
-        <div class="row align-items-end container-fluid bg-secondary p-3 m-0 ">
-          <div class="col-4">
-            <img src="./image/piratas-felfort.png" class="img-fluid" alt="..."> 
-          </div>
-          <div class="col-4">
-            <img src="./image/piratas-felfort.png" class="img-fluid" alt="..."> 
-          </div>
-          <div class="col-4">
-            <img src="./image/piratas-felfort.png" class="img-fluid" alt="..."> 
-          </div>
+
+
+
+
+
         </div>
+
+
+
       </div>
+      <div class="contenedor__medio">
+        <!--  Carrusel -->
+        <div class="contenedor__medio__item1">
+          <div class="container">
+            <div class="row blog">
+                <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
+            </div>
+</div>
 
 
+
+        </div>
+        <!-- productos -->
+        <div class="contenedor__medio__item2">
+          <div class="contenedor__medio__item2__1 pc">
+            <a href=""><img src="./image/piratas-felfort.png" class="img-fluid" alt="..."></a>
+            <h4>Monedas De Oro</h4>
+            <p>Las clásicas Moneditas de chocolate con leche Felfort, ruiqísimas y envueltas en papel aluminio dorado ¡Como si fuera una moneda de oro!
+              Las preferidas de los chicos y grandes, las de siempre.
+              Con las Moneditas Piratas de chocolate, vas a navegar por todos los mares de chocolate del mundo.</p>
+  
+          </div>
+          <div class="contenedor__medio__item2__1">
+            <a href=""><img src="./image/piratas-felfort.png" class="img-fluid" alt="..."></a>
+            <h4>Monedas De Oro</h4>
+            <p>Las clásicas Moneditas de chocolate con leche Felfort, ruiqísimas y envueltas en papel aluminio dorado ¡Como si fuera una moneda de oro!
+              Las preferidas de los chicos y grandes, las de siempre.
+              Con las Moneditas Piratas de chocolate, vas a navegar por todos los mares de chocolate.</p>
+          </div>
+          <div class="contenedor__medio__item2__1 pc">
+            <a href=""><img src="./image/piratas-felfort.png" class="img-fluid" alt="..."></a>
+            <h4>Monedas De Oro</h4>
+            <p>Las clásicas Moneditas de chocolate con leche Felfort, ruiqísimas y envueltas en papel aluminio dorado ¡Como si fuera una moneda de oro!
+              Las preferidas de los chicos y grandes, las de siempre.
+              Con las Moneditas Piratas de chocolate, vas a navegar por todos los mares de chocolate.</p>
+          </div>
+          
+        </div>
+
+      </div>
+    
+    
+    </div>
+    </div>
+
+
+
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
