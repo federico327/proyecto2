@@ -1,1 +1,28 @@
 $ColorDeFondo: whitesmoke;
+$PaletaDeColores: (
+    primario: black,
+    secundario: whitesmoke,
+    terciario: blue
+    
+
+);
+
+
+@mixin alturaDeLosContenedores{
+
+    height: 200px;
+    width: 150px;
+    
+
+
+
+}
+@mixin alturaDeLasImagenes {
+    border: 2px solid black;
+    height: 200px;
+    width: auto;
+    background-color: blue;
+    margin: 10px;
+    float: left;
+    
+}
