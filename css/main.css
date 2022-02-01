@@ -1,3 +1,33 @@
+.oferta__contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.oferta__contenedor .oferta__contenedor__item1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/span 4;
+}
+
+.oferta__contenedor .oferta__contenedor__item2 {
+  background-color: red;
+}
+
+.oferta__contenedor .oferta__contenedor__item3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/span 4;
+}
+
+.oferta__contenedor .oferta__contenedor__item4 {
+  background-color: red;
+  text-align: center;
+}
+
 .contenedor {
   display: -ms-grid;
   display: grid;
