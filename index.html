@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="stylesheet" href="./style/style.css">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="jquery-3.5.1.min.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
@@ -142,83 +143,42 @@
 
       </div>
       <div class="contenedor__medio">
-        <!--  Carrusel -->
         <div class="contenedor__medio__item1">
-          <div class="container">
-            <div class="row blog">
-                <div class="col-md-12">
-                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
 
-                        <ol class="carousel-indicators">
-                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#blogCarousel" data-slide-to="1"></li>
-                        </ol>
 
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
 
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="./image/Piratas felfort.png" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
-
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
-
-                        </div>
-                        <!--.carousel-inner-->
-                    </div>
-                    <!--.Carousel-->
-
-                </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-</div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/tienda1.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Tienda2.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/tienda3.jfif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+
 
 
 
